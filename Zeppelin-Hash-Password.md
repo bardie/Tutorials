@@ -21,12 +21,12 @@ Password to hash (confirm):
 ```
 $shiro1$SHA-256$500000$eWpVX2tGX7WCP2J+jMCNqw==$it/NRclMOHrfOvhAEFZ0mxIZRdbcfqIBdwdwdDXW2dM=
 ```
-Take this value and place it in the Zeppelin shiro documentation For example:
+6. Take this value and place it in the Zeppelin shiro.ini configuration
 ```
 [users]
 user1 = $shiro1$SHA-256$500000$eWpVX2tGX7WCP2J+jMCNqw==$it/NRclMOHrfOvhAEFZ0mxIZRdbcfqIBdwdwdDXW2dM=
 ```
-And in the [main] section
+  And in the [main] section
 ```
 [main]
 passwordMatcher = org.apache.shiro.authc.credential.PasswordMatcher
