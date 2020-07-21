@@ -1,1 +1,1 @@
- - https://shiro.apache.org/command-line-hasher.html
+ - Encrypt Password: https://shiro.apache.org/command-line-hasher.html
